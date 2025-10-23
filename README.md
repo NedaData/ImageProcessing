@@ -65,7 +65,7 @@ Compute embeddings using CLIP
 
 Store vectors inside the FAISS index
 
-Step 2: Generate Recommendations
+Generate Recommendations
 python recommender.py --recommend img1.jpg img2.jpg --topk 5
 
 Using in Streamlit
