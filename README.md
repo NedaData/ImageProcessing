@@ -16,7 +16,7 @@ Automatic caption generation for all images
 
 Combined image-text embeddings for richer semantic similarity
 
-Fast nearest-neighbor similarity search via FAISS
+Cosine similarity search via FAISS
 
 Preference aggregation from multiple liked images
 
