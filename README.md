@@ -38,13 +38,18 @@ Directory Structure
 Usage in Console
 Step 1: Create Environments
 python -m venv venv
+
 Step 2: Activate Environments
 source venv/bin/activate
+
 Step 3: Create **images** folder inside project folder with desired datasets.
+
 Step 4: install all libraries
 pip install -r requirements1.txt
+
 Step 5: Build the Index
 python image_caption1.py --build
+
 Step 6: Reccomend images
 python image_caption1.py --recommend img1.jpg img2.jpg img3.jpg
 
