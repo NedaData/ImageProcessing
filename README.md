@@ -36,6 +36,7 @@ Directory Structure
 └── recommender.py        # Main code file
 
 Usage in Console
+
 Step 1: Create Environments
 python -m venv venv
 
@@ -68,17 +69,24 @@ Step 2: Generate Recommendations
 python recommender.py --recommend img1.jpg img2.jpg --topk 5
 
 Using in Streamlit
+
 Step 1: Create Environments
 python -m venv venv
+
 Step 2: Activate Environments
 source venv/bin/activate
-Step 2: Create **images** folder inside environmenets with desired datasets
-Step 3: install all libraries
+
+Step 3: Create **images** folder inside environmenets with desired datasets
+
+Step 4: install all libraries
 pip install -r requirements1.txt
-Step 4: Run streamlit
+
+Step 5: Run streamlit
 streamlit run streamlit_rec.py
-Step 5: Inside streamlit build index
-Step 6: Recommend images
+
+Step 6: Inside streamlit build index
+
+Step 7: Recommend images
 
 Example output:
 
