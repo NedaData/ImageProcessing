@@ -35,7 +35,7 @@ Directory Structure
 ├── meta.json             # Captions and metadata
 └── recommender.py        # Main code file
 
-Usage in Console
+# Usage in Console
 
 Step 1: Create Environments
 
@@ -73,7 +73,7 @@ Store vectors inside the FAISS index
 Generate Recommendations
 python recommender.py --recommend img1.jpg img2.jpg --topk 5
 
-Using in Streamlit
+# Usage in Streamlit
 
 Step 1: Create Environments
 
